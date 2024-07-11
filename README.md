@@ -22,4 +22,5 @@ The API adheres to HATEOAS, so you can simply go to the first link above and nav
 
 #### Improvement points not implemented due to lack of time:
 * More tests, including integration tests
+* Error handling
 * Nasa data case classes fields could be camelCased. That would require some adjustments in their json marshalling
