@@ -15,7 +15,7 @@ sbt test
 ```
 
 ### Endpoints
-* http://localhost:8080/api/asteroids (with optional query parameters: startDate, endDate and sortByName)
+* http://localhost:8080/api/asteroids (with optional query parameters: startDate, endDate and sortByName). Don't use a date range bigger than 7 days, it won't work.
 * http://localhost:8080/api/asteroid/{id}
 
 The API adheres to HATEOAS, so you can simply go to the first link above and navigate through the links key of each record
